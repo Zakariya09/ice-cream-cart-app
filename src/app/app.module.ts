@@ -14,10 +14,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { HttpClientModule } from '@angular/common/http';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { AppTableComponent } from './app-components/app-table/app-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppTableComponent
   ],
   imports: [
     BrowserModule,
